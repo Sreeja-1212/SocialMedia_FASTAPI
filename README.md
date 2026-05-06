@@ -53,7 +53,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 ### Run the Server
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 The API will be available at `http://localhost:8000`
