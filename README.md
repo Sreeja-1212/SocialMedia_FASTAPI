@@ -225,4 +225,4 @@ curl "http://localhost:8000/posts/1"
 
 ---
 
-**Built with ❤️ using FastAPI | Ready for production deployment**
+
