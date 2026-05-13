@@ -6,7 +6,8 @@ from app.routers import auth, post, users, vote
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-
+# call instance of FASTAPI class
+app = FastAPI()
 
 origins = [
    "*"
@@ -24,8 +25,7 @@ app.add_middleware(
 @app.get("/")
 async def main():
     return {"message": "Hello World"}
-# call instance of FASTAPI class
-app = FastAPI()
+
 
 # Create tables in the database
 # Base.metadata.create_all(bind=engine)
