@@ -6,7 +6,7 @@ from app.routers import auth, post, users, vote
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI()
+
 
 origins = [
    "*"
