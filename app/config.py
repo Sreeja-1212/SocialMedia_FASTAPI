@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int
-    openai_api_key: str
+    
 
     class Config:
         env_file = str(BASE_DIR / ".env")   # 👈 force string
